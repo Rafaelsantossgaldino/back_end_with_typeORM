@@ -18,7 +18,7 @@ export class SubjectController {
     
     } catch (error) {
       console.log(error)
-      return res.status(500).json({message: 'Intenal server error'})
+      return res.status(500).json({message: 'Internal server error'})
     }
   }
 }
